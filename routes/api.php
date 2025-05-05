@@ -21,7 +21,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 
-//Postman Collection:
+//Postman Collection:https://restless-flare-13700.postman.co/workspace/courses-app~4a7cea06-0ef8-4077-bf32-b5bec63fdf58/collection/42794636-1e73a341-825b-4dcf-8e61-fed83c652df2?action=share&creator=42794636
 
 // Students
 Route::get('/students', [StudentController::class, 'index']);
